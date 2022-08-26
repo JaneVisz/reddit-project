@@ -1,0 +1,94 @@
+.content {
+  grid-gap: 10px;
+  max-width: 800px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(30px, auto);
+  display: grid;
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+  background-color: #e8e9eb;
+}
+
+.red {
+  color: red;
+}
+
+section {
+  background-color: white;
+}
+
+.image {
+  font-family: "Source Code Pro", monospace;
+
+  grid-column: 1/4;
+  grid-row: 1/6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  background-size: cover;
+  /* background-size: contain; */
+
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  /* width: 900px; */
+}
+
+h1 {
+  position: absolute;
+  margin: 70px 205px;
+  /* border: 1px solid black; */
+  color: white;
+  font-size: 60px;
+  gap: 20px;
+  letter-spacing: 40px;
+  font-weight: lighter;
+  font-family: "Source Code Pro", monospace;
+}
+
+.formSection {
+  margin-left: 10px;
+  grid-column: 1/3;
+  grid-row: 6/12;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  /* border: 1px solid red; */
+}
+
+textarea {
+  border: none;
+  background-color: #e8e9eb;
+}
+
+#urlName {
+  border: none;
+  background-color: #e8e9eb;
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  background-color: #0969da;
+  color: white;
+  border: none;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  width: 150px;
+}
+
+button:hover {
+  border: 2px solid black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
